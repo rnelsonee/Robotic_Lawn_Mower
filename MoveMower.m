@@ -15,7 +15,7 @@ function pct_complete = MoveMower(Yard, map, hours, show_progress, show_text_res
 save_figures = false;
 
 % Load defaults
-load('..\Common\Team2SimulationDB.mat');
+load('Team2SimulationDB.mat');
 mod_frame = 100;                       % Show only 1/mod_frame of images, speeds up display
 mow_time = hours*60*60;                 % Seconds - how long to run the mower (3h)
 max_speed = mower_max_speed*5280/3600;  % mph to feet per second
